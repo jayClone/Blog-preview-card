@@ -1,0 +1,160 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family: figtree;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family: figtree-reg;
+    src: url(assets/fonts/static/Figtree-Regular.ttf);
+}
+@font-face {
+    font-family: figtree-semi;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: #F5D04E;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    height: 520px;
+    width: 380px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    background-color: white;
+    box-shadow: 15px 15px 0 #000000;
+}
+.pic svg{
+    height: 200px;
+    width: 335px;
+    border-radius: 1rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+#learn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 25px;
+  font-size: 1rem;
+  font-family: figtree;
+  font-weight: bold;
+  background-color: #F5D04E;
+  border-radius: 5px;
+}
+.pub{
+ 
+    font-size: 1rem;
+    font-family: figtree-semi;
+}
+.heading{
+    font-size: 1rem;
+    font-family: figtree;
+    font-weight: bold;
+    
+}
+.heading:hover {
+    color: #F5D04E;
+    cursor: pointer;
+}
+.heading:active {
+    color: #F5D04E;
+}
+.pera{
+    font-size: 1rem;
+    font-family: figtree-semi;
+    color: rgb(115, 125, 125);
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-family: figtree;   
+}
+@media (max-width: 600px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 520px;
+        width: 300px;
+        border-radius: 15px;
+        border: 1px solid #000000;
+        background-color: white;
+        box-shadow: 10px 10px 0 #000000;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px 0 0 20px;
+        gap: 20px;
+    }
+    #learn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 25px;
+      font-size: 1rem;
+      font-family: figtree;
+      font-weight: bold;
+      background-color: #F5D04E;
+      border-radius: 5px;
+    }
+    .pub{
+     
+        font-size: 1rem;
+        font-family: figtree-semi;
+    }
+    .heading{
+        font-size: 1rem;
+        font-family: figtree;
+        font-weight: bold;
+        
+    }
+    .heading:hover {
+        color: #F5D04E;
+        cursor: pointer;
+    }
+    .heading:active {
+        color: #F5D04E;
+    }
+    .pera{
+        font-size: 1rem;
+        font-family: figtree-semi;
+        color: rgb(115, 125, 125);
+    }
+    .logo img{
+        height: 30px;
+        width: 30px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.3rem;
+        font-family: figtree;   
+    }
+  }  
