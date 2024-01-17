@@ -93,6 +93,13 @@ align-items: center;
     font-family: figtree;   
 }
 @media (max-width: 400px) {
+    body{
+        height: 100%;
+        width: 100%;
+        background-color: #F5D04E;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
     .box{
         display: flex;
         flex-direction: column;
@@ -117,7 +124,6 @@ align-items: center;
         border-radius: 1rem; 
         margin-left: 20px;
         margin-top: 0px;
-        overflow: hidden;
     }
     #learn{
       display: flex;
